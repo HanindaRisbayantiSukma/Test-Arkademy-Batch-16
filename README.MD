@@ -6,12 +6,16 @@ Untuk menjalankannya. ketik "node (nomor soal.js)" contoh: node 1.js pada termin
 
 No 1.
 -> Berisikan function biodata berformat JSON. 
+<br>
 No. 2.
 -> Berisikan function validasi username dan password menggunakan regex
+<br>
 No. 3.
 -> Berisikan function segitiga siku-siku yang dibuat menggunakan tanda '#' jumlah tanda '#' akan menyesuaikan parameter yang akan diisi.
+<br>
 No. 4.
 -> Berisikan function cara menemukan kata terpanjang dalam sebuah string kalimat
+<br>
 No.5.
 -> Berisikan function untuk memisahkan angka menjadi 3 digit dengan dipisahkan oleh tanda '-'
 
