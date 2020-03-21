@@ -1,11 +1,11 @@
-function myBiodata(nama,umur){ //Function with 2 Parameters
+function profile(name,age){ // nama dan umur adalah 2 parameter
     return {
-        name: nama, // String, parameter pertama
-        age: umur, // Number, parameter kedua
+        name: name, // String, parameter pertama
+        age: age, // Number, parameter kedua
         address: 'perum jatihurip blok 7 no 102', //String Alamat
         hobbies: ['olahraga', 'Mendengarkan Musik'], //Array
         is_married: false, //Boolean
-        list_school: [{
+        list_school: [{ // Array of object
             
             name: "SMA Negeri 1 cimalaka",
             year_in: "2012",
@@ -19,16 +19,20 @@ function myBiodata(nama,umur){ //Function with 2 Parameters
             year_out: '2018',
             major: 'komunikasi bisnis'
 
-        }], //Array of Object with key
+        }], 
         skills: [{
             skill_name: 'communications',
             level: 'intermediate'
         },{
             skill_name: 'cooking',
             level: 'intermediate'
-        }], // Array of Object with key
-        interest_in_coding: true, // Boolean
+        }, {
+            skill_name: 'coding',
+            level: 'beginner'
+        }
+        ], 
+        interest_in_coding: true,
     }
 }
-let biodata = myBiodata('Haninda Risbayanti Sukma', 23);
-console.log(JSON.stringify(biodata));
+let data = profile('Haninda Risbayanti Sukma', 23);
+console.log(JSON.stringify(data));

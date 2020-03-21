@@ -1,4 +1,4 @@
-function makeLine(length) {
+function halfTriangle(length) {
   var line = "";
   for (var i = 1; i <= length; i++) {
     for (var j = 1; j <= i; j++) {
@@ -9,4 +9,4 @@ function makeLine(length) {
   }
   return line;
 }
-console.log(makeLine(5));
+console.log(halfTriangle(5));
