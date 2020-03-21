@@ -10,6 +10,6 @@ function longestWord(string) {
     });
     return word;
 }
-console.log(longestWord("Seluruh Arkademian mengucapkan selamat ramadhan!"));
-console.log(longestWord("Halo Arkademian!"));
-console.log(longestWord("Baju ini sangat bagus sekali"))
+console.log(longestWord("Seluruh Arkademian mengucapkan selamat ramadhan!")); //mengucapkan
+console.log(longestWord("Halo Arkademian!")); //arkademian!
+console.log(longestWord("Baju ini sangat bagus sekali")) //sangat
